@@ -1,8 +1,8 @@
 {
-  "name": "instantsearch-electron",
-  "productName": "InstantSearch",
-  "version": "0.1.2",
-  "description": "Electron and React InstantSearch application boilerplate",
+  "name": "instantsearch-gifs",
+  "productName": "InstantGifs",
+  "version": "0.0.1",
+  "description": "Electron and React InstantSearch application for searching through your private gif collection",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --retries 2 --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -77,9 +77,9 @@
     "url": "git+https://github.com/algolia/instantsearch-electron.git"
   },
   "author": {
-    "name": "Josh Dzielak",
-    "email": "josh.dzielak@algolia.com",
-    "url": "https://github.com/algolia"
+    "name": "Pandelis Zembashis",
+    "email": "info@pandelis.me",
+    "url": "https://github.com/pandelisz"
   },
   "license": "MIT",
   "bugs": {
