@@ -1,0 +1,144 @@
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+  font-size: 14px;
+}
+
+.hits * {
+  -webkit-user-select: text !important;
+}
+
+.sidebar {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  z-index: 10;
+  overflow-y: scroll;
+  width: 260px;
+  max-width: 260px;
+}
+
+button[type=submit] {
+  display: none;
+}
+
+button[type=reset] {
+  display: none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 180px;
+  top: 17px;
+}
+
+button[disabled] {
+  opacity: 0.3;
+}
+
+.after-header {
+  overflow-y: scroll;
+  position: fixed;
+  padding-left: 261px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  padding-top: 55px;
+}
+
+@media screen and (max-width: 560px) {
+  .sidebar {
+    display: none;
+  }
+  .after-header {
+    padding-left: 0
+  }
+}
+
+.toolbar-header {
+  z-index: 5;
+  position: relative;
+}
+
+input.ais-SearchBox__input[type="search"] {
+  width: 240px;
+  background-color: white;
+  outline: 0;
+  color: #444;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.toolbar-actions {
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+
+.ais-PoweredBy__root {
+  display: none;
+  margin: 30px 0 5px 15px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.hit {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 25px 5px;
+  margin: 0;
+}
+
+.hit .quote-text {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: serif;
+}
+
+.hit .additional-info div {
+  color: #888;
+  margin-top: 12px;
+  display: inline-block;
+  width: 15%;
+  overflow: hidden;
+  text-overflow: hidden;
+  white-space: nowrap;
+}
+
+.hit .additional-info div.keywords {
+  width: 35%;
+}
+
+.hit .additional-info div.author {
+  width: 35%;
+  font-weight: bold;
+}
+
+.ais-Highlight__highlighted {
+  font-style: normal;
+  color: #000;
+  background-color: #ffff00;
+}
+
+.ais-RefinementList__item label, .ais-RefinementList__item input {
+  font-size: 12px;
+  color: #666;
+}
+.ais-RefinementList__itemLabel {
+  margin-left: 5px;
+}
+.ais-RefinementList__itemCheckbox {
+  display: inline-block;
+  margin-left: 6px !important;
+}
+.ais-RefinementList__itemCheckbox:focus {
+  outline: 0;
+}
+.ais-RefinementList__itemCount {
+  color: #aaa;
+}
+.ais-RefinementList__itemCount:before {
+  color: #aaa;
+}
+.ais-RefinementList__itemCount:after {
+  color: #aaa;
+}
