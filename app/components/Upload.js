@@ -1,7 +1,7 @@
 import qs from 'qs';
 import { isEqual } from 'lodash';
 import React, { Component } from 'react';
-import { withRouter, Link } from 'react-router';
+import { withRouter } from 'react-router';
 import {
   InstantSearch,
   Hits,
@@ -122,12 +122,12 @@ class Search extends Component {
                   <div className="toolbar-actions">
                     <ClearAll />
                       <button className="btn btn-default">
-                      Cancel
+                      This is the upload page
                     </button>
 
-                    <Link to='/upload/'><button className="btn btn-default pull-right">
-                        UPLOAD
-                    </button></Link>
+                    <button className="btn btn-default pull-right">
+                      <span className="icon icon-plus"></span>
+                    </button>
                   </div>
                 </header>
                 <div className="after-header">

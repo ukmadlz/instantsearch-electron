@@ -76,7 +76,7 @@ input.ais-SearchBox__input[type="search"] {
 }
 
 .ais-PoweredBy__root {
-  display: none;
+  /*display: none;*/
   margin: 30px 0 5px 15px;
   font-size: 12px;
   color: #aaa;
@@ -104,6 +104,30 @@ input.ais-SearchBox__input[type="search"] {
   white-space: nowrap;
 }
 
+
+li.tags {
+  margin: 2px;
+}
+
+li.tags:active {
+  border-top-color: #c2c0c2;
+  border-right-color: #c2c0c2;
+  border-bottom-color: #a19fa1;
+  border-left-color: #c2c0c2;
+  background-color: #fcfcfc;
+  background-image: linear-gradient(to bottom, #fcfcfc 0%, #f1f1f1 100%);
+}
+
+li.predictions:active {
+  border-color: #388df8;
+    border-bottom-color: #0866dc;
+    background-color: #6eb4f7;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6eb4f7), color-stop(100%, #1a82fb));
+    background-image: -webkit-linear-gradient(top, #6eb4f7 0%, #1a82fb 100%);
+    background-image: linear-gradient(to bottom, #6eb4f7 0%, #1a82fb 100%);
+}
+
+
 .hit .additional-info div.keywords {
   width: 35%;
 }
@@ -111,6 +135,10 @@ input.ais-SearchBox__input[type="search"] {
 .hit .additional-info div.author {
   width: 35%;
   font-weight: bold;
+}
+
+.hit .image {
+  width: 200px;
 }
 
 .ais-Highlight__highlighted {
