@@ -165,7 +165,7 @@
     "conf": "^0.12.0",
     "electron-debug": "^1.1.0",
     "font-awesome": "^4.7.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.17",
     "null-loader": "^0.1.1",
     "qs": "^6.3.0",
     "react": "^15.4.2",
